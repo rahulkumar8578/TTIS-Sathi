@@ -3947,3 +3947,32 @@ body > footer {
         white-space: normal !important;
     }
 }
+
+
+
+
+/* TTIS - Complete Responsive Hero Background */
+
+.hero {
+    background-size: 100% 100% !important;
+    background-position: center center !important;
+    background-repeat: no-repeat !important;
+    min-height: 100vh;
+}
+
+/* Desktop */
+@media (min-width: 769px) {
+    .hero {
+        min-height: 100vh;
+    }
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+    .hero {
+        min-height: 100vh;
+        background-size: 100% 100% !important;
+        background-position: center center !important;
+        background-repeat: no-repeat !important;
+    }
+}
